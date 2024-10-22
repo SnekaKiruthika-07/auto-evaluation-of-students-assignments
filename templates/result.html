@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submission Result</title>
+</head>
+<body>
+    <h1>Evaluation Result</h1>
+    <ul>
+    {% for res in result %}
+        <li>{{ res }}</li>
+    {% endfor %}
+    </ul>
+    <br>
+    <a href="/">Submit another assignment</a>
+</body>
+</html>
